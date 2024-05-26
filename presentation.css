@@ -318,10 +318,61 @@ section {
 }
 
 
+
 /* Footer Styles */
 footer {
     background: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+#section6 h2 {
+    font-size: 50px; 
+    margin-bottom: 50px; 
+}
+
+container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section p {
+    margin: 10px 0;
+}
+
+.banner {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.technologies {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.technologies div {
+    flex: 1;
+    text-align: center;
+}
+
+.technologies ul {
+    list-style: none;
+    padding: 0;
+}
+
+.technologies li {
+    margin: 5px 0;
 }
