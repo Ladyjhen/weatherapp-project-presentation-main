@@ -1,4 +1,6 @@
-body, h1, h2, p, ul, li {
+/* Ensure html and body take up the full height of the viewport */
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -8,9 +10,16 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     text-align: center; /* Center content */
-    background-color: coral;
+    background-color: coral; /* Set the background color */
 }
 
+/* Other CSS rules as needed */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
 header {
     background-image: url('bg.jpg'); /* Replace 'your-image-url.jpg' with the URL of your image */
     background-size: cover; /* Cover the entire header with the background image */
@@ -19,7 +28,7 @@ header {
     padding: 250px;
     margin-bottom: 100px;
 }
-  
+
 header h1 {
     margin: 0;
     font-size: 100px;
@@ -30,16 +39,17 @@ header p {
     margin: 0; /* Add margin below the header text */
     font-size: 14px; /* Adjust font size for the small text */
 }
-  
+
+/* Navigation Styles */
 nav ul {
     list-style-type: none;
 }
-  
+
 nav ul li {
     display: inline;
     margin-right: 20px;
 }
-  
+
 nav ul li a {
     color: #fff;
     text-decoration: none;
@@ -60,11 +70,11 @@ nav ul li a {
     z-index: 999;
     transition: background-color 0.3s; /* Add transition effect */
 }
-  
+
 #nav-toggle:hover {
     background-color: #555; /* Change background color on hover */
 }
-  
+
 #nav-toggle svg {
     fill: #fff;
     margin-right: 5px; /* Add space between icon and text */
@@ -82,49 +92,48 @@ nav ul li a {
     z-index: 998;
     transition: right 0.3s ease; /* Add transition effect */
 }
-  
+
 #main-nav.open {
     right: 0; /* Slide the navigation to the left when the "open" class is applied */
 }
-  
+
 #main-nav ul {
     list-style-type: none;
     padding: 0;
 }
-  
+
 #main-nav ul li {
     padding: 10px;
     text-align: center; /* Align list items in the center */
 }
-  
+
 #main-nav ul li a {
     display: block; /* Make list items block-level elements */
     color: #fff;
     text-decoration: none;
 }
-  
+
 /* Slight glowing effect */
 #main-nav ul li a:hover {
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
 
 /* CSS for Member section */
-
 #members {
     padding: 20px;
 }
-  
+
 #members h2 {
     margin-bottom: 20px;
 }
-  
+
 .member-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Display 2 columns */
     grid-template-rows: repeat(3, auto); /* Display 3 rows */
     grid-gap: 20px; /* Add gap between cards */
 }
-  
+
 .member-card {
     width: 250px;
     padding: 20px; /* Adjust padding as needed */
@@ -134,7 +143,7 @@ nav ul li a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 10px auto; /* Add margin to create space between cards */
 }
-  
+
 .member-card img {
     width: auto; /* Let the width adjust automatically */
     height: 160px; /* Fixed height */
@@ -168,7 +177,6 @@ nav ul li a {
     width: 100%;
     padding: 10px 1px;
     background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background color */
-
 }
 
 .member-details h3 {
@@ -181,22 +189,22 @@ nav ul li a {
     font-size: 14px;
     color: #666;
 }
-  
+
 .member-card-content {
     padding: 20px; /* Adjust padding as needed */
-  }
-  
+}
+
 .member-card h3 {
     margin-top: 10px;
     font-size: 16px; /* Reduce font size */
 }
-  
+
 .member-card p {
     margin-top: 5px;
     font-size: 12px; /* Reduce font size */
     color: #666;
 }
-  
+
 section {
     margin-bottom: 100px; /* Add space below each section */
 }
@@ -216,7 +224,7 @@ section {
 
 #section2 p {
     font-size: 20px;
-    color: 	#363424; /* Adjust font size for the paragraph */
+    color: #363424; /* Adjust font size for the paragraph */
 }
 
 .logo-container {
@@ -259,8 +267,8 @@ section {
 }
 
 #section4 h2 {
-    font-size: 50px; 
-    margin-bottom: 50px; 
+    font-size: 50px;
+    margin-bottom: 50px;
 }
 
 .main-idea {
@@ -285,7 +293,6 @@ section {
     line-height: 1.5;
     margin-bottom: 250px;
     font-style: italic;
-    
 }
 
 #section5 h2 {
@@ -314,11 +321,9 @@ section {
 
 #section5 .feature-item p {
     text-align: justify; /* Center-align the text */
-    margin-top: 50px; 
-    margin-bottom: 30px;/* Add a small margin on top */
+    margin-top: 50px;
+    margin-bottom: 30px; /* Add a small margin on top */
 }
-
-
 
 /* Footer Styles */
 footer {
@@ -327,9 +332,10 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
 #section6 h2 {
-    font-size: 50px; 
-    margin-bottom: 50px; 
+    font-size: 50px;
+    margin-bottom: 50px;
 }
 
 .container {
