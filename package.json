@@ -1,0 +1,15 @@
+{
+    "name": "weatherapp-project-presentation",
+    "version": "1.0.0",
+    "description": "A presentation for the Weather App project by Team 3.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Team 3",
+    "license": "MIT",
+    "dependencies": {
+      
+    }
+  }
+  
