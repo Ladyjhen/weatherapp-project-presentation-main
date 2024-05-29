@@ -9,8 +9,8 @@ html, body {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    text-align: center; /* Center content */
-    background-color: coral; /* Set the background color */
+    text-align:center; /* Center content */
+    background-color: rgb(47, 172, 109); /* Set the background color */
 }
 
 /* Other CSS rules as needed */
@@ -33,11 +33,15 @@ header h1 {
     margin: 0;
     font-size: 100px;
     font-family: 'gentona', sans-serif;
+    color: rgb(226, 164, 123);
+    text-justify: distribute;
 }
 
 header p {
     margin: 0; /* Add margin below the header text */
-    font-size: 14px; /* Adjust font size for the small text */
+    font-size: 25px; /* Adjust font size for the small text */
+    color: rgb(238, 165, 106);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Navigation Styles */
@@ -213,18 +217,20 @@ section {
     background-image: url('bg.jpg'); /* Replace 'your-image-filename.jpg' with the filename of your background image */
     background-size: cover; /* Cover the entire section with the background image */
     background-position: center; /* Center the background image */
-    color: black;
+    color:rgb(226, 164, 123) ;
     padding: 250px 20px; /* Adjust padding as needed */
     text-align: center; /* Center the text horizontally */
 }
 
 #section2 h2 {
     font-size: 80px; /* Increase font size for the section heading */
+    color:rgb(226, 164, 123) ;
 }
 
 #section2 p {
-    font-size: 20px;
-    color: #363424; /* Adjust font size for the paragraph */
+    font-size: 50px;
+    color:rgb(226, 164, 123); /* Adjust font size for the paragraph */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .logo-container {
